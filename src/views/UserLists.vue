@@ -1,7 +1,7 @@
 <template>
   <section>
     <ul>
-      <li v-for="post in posts">
+      <li v-for="post in posts" :key="post.userId">
         <h3>{{ post.userId }}</h3>
         <h4>{{ post.title }}</h4>
         <span>{{ post.body }}</span>

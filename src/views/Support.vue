@@ -6,7 +6,7 @@
         <p class="subheading font-weight-regular">How can we help you?</p>
       </v-flex>
       <ul>
-        <li v-for="user in programmers">
+        <li v-for="user in programmers" :key="user.name">
           <h3>{{ user.name }}</h3>
           <h4>{{ user.age }}</h4>
           <span>{{ user.position }}</span>

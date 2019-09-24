@@ -64,13 +64,6 @@ export default {
   },
   computed: {
     user() {
-      console.log(
-        `[title name] item: ${JSON.stringify(
-          this.$store.getters.user,
-          null,
-          "   "
-        )}`
-      );
       return this.$store.getters.user;
     }
   }

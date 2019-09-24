@@ -1,0 +1,58 @@
+[
+  {
+    "common": {
+      "id": "1",
+      "name": "Aizul73",
+      "email": "mohamad.aizul73@gmail.com",
+      "tenants": ["tenantID_00", "tenantID_01"]
+    },
+    "app": {
+      "grafana": {
+        "id": "12",
+        "role": "Admin"
+      },
+      "superset": {},
+      "jupyter": {}
+    },
+    "externIDs": {
+      "uap": {
+        "mimos": "persistentID",
+        "gosg": "nric|passport"
+      },
+      "mmi": {
+        "apikey": "apikey"
+      }
+    },
+    "state": {
+      "tenant_active": "tenantID_00"
+    }
+  },
+  {
+    "common": {
+      "id": "2",
+      "name": "Ikhwan",
+      "email": "mikhwan.aghani@gmail.com",
+      "tenants": ["tenantID_00", "tenantID_01"]
+    },
+    "app": {
+      "grafana": {
+        "role": "Viewer",
+        "id": 14
+      },
+      "superset": {},
+      "jupyter": {}
+    },
+    "externIDs": {
+      "uap": {
+        "mimos": "persistentID",
+        "gosg": "nric|passport"
+      },
+      "mmi": {
+        "apikey": "apikey"
+      }
+    },
+    "state": {
+      "tenant_active": "tenantID_00"
+    }
+  }
+]

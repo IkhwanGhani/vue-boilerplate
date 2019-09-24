@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "name": "Aizul73",
+    "email": "mohamad.aizul73@gmail.com",
+    "role": "Admin"
+  },
+  {
+    "id": "2",
+    "name": "Ikhwan",
+    "email": "mikhwan.aghani@gmail.com",
+    "role": "Viewer"
+  }
+]
